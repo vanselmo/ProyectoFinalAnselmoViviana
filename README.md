@@ -25,17 +25,17 @@ Esto iniciará el servidor en el puerto 8080. Puedes acceder a la API utilizando
 #### Renderización de vistas
 
 - **GET /** : Renderiza la página principal con una lista de productos. Soporta los siguientes query params:
-`page` (opcional): Número de la página actual. Default es 1.
-`limit` (opcional): Límite de productos por página. Default es 10.
+  - `page` (opcional): Número de la página actual. Default es 1.
+  - `limit` (opcional): Límite de productos por página. Default es 10.
 - **GET /realtimeproducts** : Renderiza una página con los productos en tiempo real. Soporta los mismos query params que GET /api/products.
 - **GET /carts/:cid**: Renderiza la vista de un carrito con sus productos.
 
 #### Gestión de productos
 - **GET /api/products** : Listar todos los productos. Soporta las siguientes query params:
-`limit` (opcional): Límite de productos por página. Default es 10.
-`page` (opcional): Número de la página actual. Default es 1.
-`sort` (opcional): Ordenar por precio ascendente (asc) o descendente (desc).
-`query` (opcional): Filtrar productos por categoría.
+  - `limit` (opcional): Límite de productos por página. Default es 10.
+  - `page` (opcional): Número de la página actual. Default es 1.
+  - `sort` (opcional): Ordenar por precio ascendente (asc) o descendente (desc).
+  - `query` (opcional): Filtrar productos por categoría.
 - **GET /api/products/:pid** : Obtener un producto por su ID.
 - **POST /api/products** : Crear un nuevo producto.
 - **PUT /api/products/:pid** : Actualizar un producto existente.
