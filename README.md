@@ -19,7 +19,7 @@ La imagen Docker del proyecto está disponible en Docker Hub. Puedes descargarla
 docker pull vanselmo/pf-claudia-anselmo:latest
 `
 
-### Configurar la variable de entorno MONGODB_STRING
+### 2. Configurar la variable de entorno MONGODB_STRING
 
 La aplicación requiere la variable de entorno **MONGODB_STRING** para conectarse a la base de datos MongoDB. Esta variable debe contener la URI de conexión a tu base de datos.
 
@@ -29,7 +29,7 @@ Por ejemplo:
 
 Asegúrate de reemplazar `<usuario>`, `<password>`, `<cluster>` y `<nombreDB>` con los valores correctos para tu configuración.
 
-### Ejecutar la imagen Docker
+### 3. Ejecutar la imagen Docker
 
 Una vez que hayas configurado la URI de MongoDB, puedes ejecutar el contenedor con el siguiente comando:
 
@@ -43,24 +43,26 @@ docker run -d \
 Este comando hará lo siguiente:
 
 - Ejecutará el contenedor en segundo plano (-d).
-- Expondrá la aplicación en el puerto 3000 del host.
+- Expondrá la aplicación en el puerto 8081 del host.
 - Configurará la variable de entorno MONGODB_STRING en el contenedor.
 
-### Acceso a la aplicación
+### 4. Acceso a la aplicación
+
 Una vez que el contenedor esté en ejecución, la aplicación estará disponible en:
 
 `
 http://localhost:8081
 `
 
-### Verificar el estado del contenedor
+### 5. Verificar el estado del contenedor
 
 Para verificar que el contenedor esté corriendo correctamente, puedes usar:
 
 `
 docker ps
 `
-### Detener el contenedor
+
+### 6. Detener el contenedor
 
 Si necesitas detener el contenedor, puedes hacerlo ejecutando:
 
