@@ -1,0 +1,82 @@
+[
+    {
+        "first_name": "Juan",
+        "last_name": "Pérez",
+        "email": "juan.perez@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Ana",
+        "last_name": "Gómez",
+        "email": "ana.gomez@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Carlos",
+        "last_name": "Martínez",
+        "email": "carlos.martinez@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Laura",
+        "last_name": "Rodríguez",
+        "email": "laura.rodriguez@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Pedro",
+        "last_name": "Fernández",
+        "email": "pedro.fernandez@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Maria",
+        "last_name": "López",
+        "email": "maria.lopez@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "David",
+        "last_name": "Hernández",
+        "email": "david.hernandez@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Sara",
+        "last_name": "García",
+        "email": "sara.garcia@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Javier",
+        "last_name": "Jiménez",
+        "email": "javier.jimenez@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Elena",
+        "last_name": "Sánchez",
+        "email": "elena.sanchez@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    }
+]
