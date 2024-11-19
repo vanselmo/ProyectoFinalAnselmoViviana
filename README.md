@@ -36,7 +36,7 @@ Una vez que hayas configurado la URI de MongoDB, puedes ejecutar el contenedor c
 `
 docker run -d \
   -p 8081:8080 \
-  -e MONGODB_STRING="mongodb+srv://<usuario>:<contraseña>@<cluster>.mongodb.net/<nombreDB>?retryWrites=true&w=majority" \
+  -e MONGODB_STRING="mongodb+srv://<usuario>:<password>@<cluster>.mongodb.net/<nombreDB>?retryWrites=true&w=majority" \
   vanselmo/pf-claudia-anselmo:latest
 `
 
