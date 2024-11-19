@@ -13,7 +13,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes componentes en 
 
 ### 1. Descargar la imagen de Docker
 
-La imagen Docker del proyecto está disponible en Docker Hub. Puedes descargarla ejecutando:
+La imagen Docker del proyecto está disponible en Docker Hub en [https://hub.docker.com/r/vanselmo/pf-claudia-anselmo](https://hub.docker.com/r/vanselmo/pf-claudia-anselmo "https://hub.docker.com/r/vanselmo/pf-claudia-anselmo"). Puedes descargarla ejecutando:
 
 `
 docker pull vanselmo/pf-claudia-anselmo:latest
